@@ -1,7 +1,7 @@
 'use strict';
 
 const li = document.querySelectorAll('li');
-const mainImage = document.querySelector('div').firstElementChild.firstElementChild;
+const mainImage = document.querySelector('#largeImg');
 
 const showImg = (event) => {
     const imageToChange = event.target.parentNode;
